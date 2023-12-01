@@ -8,7 +8,7 @@ st.set_page_config(layout='wide')
 
 #read data
 customer = pd.read_pickle('data/customer.pkl')
-coord = pd.read_csv('data/streacoordinate.csv')
+coord = pd.read_csv('data/coordinate.csv')
 
 # ROW 1
 st.title('General Category of Our Customers')
